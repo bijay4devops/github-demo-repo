@@ -2,8 +2,8 @@ pipeline {
   agent any
 
   tools{
-    manen 'localMaven'
-    jdk 'localJava'
+    maven 'localMaven'
+    jdk 'localJDK'
   }
   enviroment {
     fname = "Bijay"
