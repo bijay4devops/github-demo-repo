@@ -5,7 +5,7 @@ pipeline {
     maven 'localMaven'
     jdk 'localJDK'
   }
-  enviroment {
+  environment {
     fname = "Bijay"
     lname = "Mahakuda"
     version = "1.2"
