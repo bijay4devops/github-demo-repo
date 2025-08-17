@@ -1,15 +1,11 @@
 pipeline {
     agent any
+    stages{
+        stage('name'){
+            steps{
+                echo 'my name is bijay,welcome to jenkins class'
+            }
+        }
         
-        stages {
-            stage('Hello'){
-                steps {
-                    echo 'Hello World'
-                }
-            }
-            stage('test'){
-                steps{
-                    echo "this is the 2nd stage"
-                }
-            }
-        }   
+    }
+}
