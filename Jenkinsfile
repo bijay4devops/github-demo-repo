@@ -8,7 +8,7 @@ pipeline {
         }
         stage('run shell script'){
             steps{
-                sh'chmod 777 demo.sh ;./demp.sh'
+                sh'chmod 777 demo.sh ;./demo.sh'
             }
         }
         
