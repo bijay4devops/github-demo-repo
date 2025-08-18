@@ -23,7 +23,7 @@ pipeline {
             }
       }
     }
-    stage ('Deploy to string1'){
+    stage ('Deploy to string'){
       steps {
         echo 'This is just a demo on string server.'
       }
