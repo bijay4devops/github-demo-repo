@@ -10,6 +10,7 @@ pipeline {
     lname = "Mahakuda"
     version = "1.2"
     system = "test"
+    cloud ="AWS"
   }
   stages{
     stage('Build'){
