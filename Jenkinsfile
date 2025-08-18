@@ -7,7 +7,7 @@ pipeline {
   }
   environment {
     fname = "Bijay"
-    lname = "Mahakuda"
+    lname = "Mahakudak"
     version = "1.2"
     system = "test"
     cloud ="AWS"
